@@ -2,8 +2,12 @@
   "name": "travelmap",
   "version": "1.0.0",
   "description": "World map with information made with javascript plugin ammaps",
+  "engines": {
+    "node": "6.10.2"
+  },
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "npm test"
   },
   "repository": {
