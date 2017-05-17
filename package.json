@@ -1,0 +1,25 @@
+{
+  "name": "travelmap",
+  "version": "1.0.0",
+  "description": "World map with information made with javascript plugin ammaps",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aber866/travelMap.git"
+  },
+  "keywords": [
+    "ammaps"
+  ],
+  "author": "Alberto Valverde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aber866/travelMap/issues"
+  },
+  "homepage": "https://github.com/aber866/travelMap#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
