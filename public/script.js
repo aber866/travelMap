@@ -3,98 +3,32 @@ var map = AmCharts.makeChart( "chartdiv", {
     "theme": "light",
     "dataProvider": {
         "map": "worldHigh",
-        "zoomLevel": 3.5,
-        "zoomLongitude": 10,
-        "zoomLatitude": 52,
+        "zoomLevel": 5,
+        "zoomLongitude": 0,
+        "zoomLatitude": 46,
         "areas": [ {
-            "id": "AT",
-            "color": "#67b7dc"
-        }, {
-            "id": "IE",
-            "color": "#67b7dc"
-        }, {
             "id": "DK",
-            "color": "#67b7dc"
-        }, {
-            "id": "FI",
-            "color": "#67b7dc"
-        }, {
-            "id": "SE",
-            "color": "#67b7dc"
+            "color": "#088A08"
         }, {
             "id": "GB",
-            "color": "#67b7dc"
-        }, {
-            "id": "IT",
-            "color": "#67b7dc"
+            "color": "#FFFF00"
         }, {
             "id": "FR",
-            "color": "#67b7dc"
+            "color": "#01A9DB"
         }, {
             "id": "ES",
-            "color": "#67b7dc"
-        }, {
-            "id": "GR",
-            "color": "#67b7dc"
-        }, {
-            "id": "DE",
-            "color": "#67b7dc"
-        }, {
-            "id": "BE",
-            "color": "#67b7dc"
-        }, {
-            "id": "LU",
-            "color": "#67b7dc"
-        }, {
-            "id": "NL",
-            "color": "#67b7dc"
+            "color": "#DF0101"
         }, {
             "id": "PT",
-            "color": "#67b7dc"
+            "color": "#8A0868"
         }, {
-            "id": "LT",
-            "color": "#ebdb8b"
-        }, {
-            "id": "LV",
-            "color": "#ebdb8b"
-        }, {
-            "id": "CZ",
-            "color": "#ebdb8b"
-        }, {
-            "id": "SK",
-            "color": "#ebdb8b"
-        }, {
-            "id": "SI",
-            "color": "#ebdb8b"
-        }, {
-            "id": "EE",
-            "color": "#ebdb8b"
-        }, {
-            "id": "HU",
-            "color": "#ebdb8b"
-        }, {
-            "id": "CY",
-            "color": "#ebdb8b"
-        }, {
-            "id": "MT",
-            "color": "#ebdb8b"
-        }, {
-            "id": "PL",
-            "color": "#ebdb8b"
-        }, {
-            "id": "RO",
-            "color": "#83c2ba"
-        }, {
-            "id": "BG",
-            "color": "#83c2ba"
-        }, {
-            "id": "HR",
-            "color": "#db8383"
+            "id": "MA",
+            "color": "#FF8000"
         }]
     },
     "areasSettings": {
-        "rollOverOutlineColor": "#FFFFFF",
-        "rollOverColor": "#CC0000",
+        "rollOverOutlineColor": "#111111",
+        "rollOverColor": "#0B0B3B",
         "alpha": 0.8,
         "unlistedAreasAlpha": 0
     }
