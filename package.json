@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/aber866/travelMap#readme",
   "dependencies": {
+    "cool-ascii-faces": "1.3.4",
     "express": "^4.15.3"
   }
 }
