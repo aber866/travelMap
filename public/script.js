@@ -1,7 +1,6 @@
 var map = AmCharts.makeChart( "chartdiv", {
     "type": "map",
     "theme": "light",
-    projection: "miller",
     "dataProvider": {
         "map": "worldHigh",
         "zoomLevel": 5,
@@ -106,15 +105,22 @@ var map = AmCharts.makeChart( "chartdiv", {
             longitude: -2,
             latitude: 54,
             title: "title",
-            value: 1,
-            label: 1,
-            balloonText: "proximamente...",
+            value: 6,
+            label: 6,
+            balloonText: "<div>" +
+                "<img src='img/londres.jpg' style='width: 100px; float: left; margin-right: 10px;'>" +
+                "<img src='img/canterbury.jpg' style='width: 100px; float: left; margin-right: 10px;'>" +
+                "<img src='img/birmingham.jpg' style='width: 100px; float: left; margin-right: 10px;'>" +
+                "<img src='img/oxford.jpg' style='width: 100px; float: left; margin-right: 10px;'>" +
+                "<img src='img/cambridge.jpg' style='width: 100px; float: left; margin-right: 10px;'>" +
+                "<img src='img/edimburgo.jpg' style='width: 100px; float: left; margin-right: 10px;'></div>" +
+                "<div><strong>" + "Reino Unido: muchos viaje, 6 ciudad" + ":</strong></br> Edimburgo: Junio 2017 </br> Birmingham: Junio 2017 </br> Londres: Mayo 2017 </br> Cambridge: Junio 2016 </br> Oxford: Julio 2016 </br> Canterbury: Agosto 2016</div>",
             zoomLevel: 10,
-            labelShiftY: -2,
+            labelShiftY: -2
         }]
     },
     balloon: {
-        maxWidth: 302,
+        maxWidth: 350,
         adjustBorderColor: true,
         borderThickness: 1,
         color: "#444444",
@@ -126,7 +132,8 @@ var map = AmCharts.makeChart( "chartdiv", {
         labelPosition: "middle",
         labelColor: "#fff",
         labelRollOverColor: "#fff",
-        color: "#EC0000"
+        color: "#EC0000",
+        descriptionWindowWidth: 500
     },
     "areasSettings": {
         "rollOverOutlineColor": "#111111",
